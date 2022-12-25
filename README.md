@@ -1,6 +1,6 @@
 if game.PlaceId -- 4483381587 then
 
-then local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+then local OrionLib = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
 
 local Window = OrionLib:MakeWindow({Name = "Main Dupe", HidePremium = false, SaveConfig = true, ConfigFolder = "Main Config"}
 
